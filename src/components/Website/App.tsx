@@ -1,16 +1,18 @@
 import React, { useState } from "react";
-import Header from "./Header";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Body from "./Body";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Body from "./components/Body";
 
 const App = () => {
-  const [activeTab, setActiveTab] = useState("Contact");
+  const [activeTab, setActiveTab] = useState("Home");
   return (
     <div className="items-center justify-center flex flex-col">
       <Header />
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
-      <Body activeTab={activeTab} />
+      <div className=" border-2">
+        <Body activeTab={activeTab} />
+      </div>
       <Footer />
     </div>
   );

@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 
-const Contact = ({ contactList, setContactList }) => {
+const Contact = () => {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   console.log(name, message);
 
   const handleSubmit = () => {
-    const newContactList = [...contactList, { name: name, message: message }];
-    setContactList(newContactList); // or either you can use .push();
+    // const newContactList = [...contactList, { name: name, message: message }];
+    // setContactList(newContactList); // or either you can use .push();
     setName("");
     setMessage("");
   };

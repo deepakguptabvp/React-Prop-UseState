@@ -1,6 +1,6 @@
 import React from "react";
 
-const navList = ["Home", "About", "Contact"];
+const navList = ["Home", "About", "Contact", "Cart"];
 
 const Navbar = ({ setActiveTab, activeTab }) => {
   const handleClick = (item) => {

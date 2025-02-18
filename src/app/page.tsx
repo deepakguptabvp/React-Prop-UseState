@@ -1,9 +1,10 @@
 "use client";
 
-import Home from "@/components/TabScoreBoard/Home";
+// import App from "@/components/Practice Folder/ScoreBoard APP/App";
 
+import App from "@/components/Website/App";
+// import Home from "@/components/TabScoreBoard/Home";
 // import App from "@/components/TabScoreBoard/App";
-// import App from "@/components/Website/App";
 // import App from "@/components/StarRating/App";
 // import App from "@/components/FAQ's List/App";
 // import CounterApp from "@/components/CounterApp/CounterApp";
@@ -28,7 +29,8 @@ export default function Home2() {
       {/* <CounterApp /> */}
       {/* <App /> */}
       {/* <App /> */}
-      <Home />
+      {/* <Home /> */}
+      <App />
     </div>
   );
 }
